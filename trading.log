@@ -1,0 +1,524 @@
+2026-05-21 09:37:47,576 [futures_trader.prediction] INFO: Numba JIT 加速已启用
+2026-05-21 09:37:47,598 [futures_trader.main] INFO: ============================================================
+2026-05-21 09:37:47,598 [futures_trader.main] INFO: 全自动期货短线交易工具 v5 启动
+2026-05-21 09:37:47,598 [futures_trader.main] INFO: 交易品种: DCE.eb2607
+2026-05-21 09:37:47,598 [futures_trader.main] INFO: 核心改进: Tick归一化ATR + BB挤压突破 + VWAP回归 + 卡尔曼滤波
+2026-05-21 09:37:47,598 [futures_trader.main] INFO: ============================================================
+2026-05-21 09:37:47,611 [futures_trader.database] INFO: 数据库初始化完成
+2026-05-21 09:37:47,629 [futures_trader.config] INFO: 加载持久化状态: 累计交易=0, 累计盈亏=0.00
+2026-05-21 09:37:48,363 [dash.dash] INFO: Dash is running on http://127.0.0.1:8051/
+
+2026-05-21 09:37:48,363 [futures_trader.dashboard] INFO: 仪表盘已启动: http://127.0.0.1:8051
+2026-05-21 09:37:50,845 [futures_trader.main] INFO: 正在连接快期模拟 - 账号: '19224304249'
+2026-05-21 09:37:52,239 [futures_trader.main] INFO: 天勤 API (快期模拟) 连接成功
+2026-05-21 09:37:52,933 [futures_trader.main] INFO: 初始权益: 20000.00
+2026-05-21 09:37:52,936 [futures_trader.main] INFO: 前日 VA: [9262.00, 9342.37], H/L/C: 9403.00/9262.00/9326.00
+2026-05-21 09:37:52,936 [futures_trader.executor] INFO: 最小变动价位: 1.0
+2026-05-21 09:37:52,937 [futures_trader.main] INFO: 进入主循环
+2026-05-21 09:37:52,937 [futures_trader.main] INFO: ------------------------------------------------------------
+2026-05-21 09:38:59,955 [futures_trader.prediction] INFO: BB 挤压检测: 波动率收缩, 准备突破
+2026-05-21 09:39:47,167 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:47,181 [futures_trader.data_collector] WARNING: 警报: 行情中断, 延迟=3723ms, 进入盲飞模式
+2026-05-21 09:39:47,426 [futures_trader.data_collector] INFO: 行情恢复, 延迟=0ms
+2026-05-21 09:39:47,428 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:47,510 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:47,937 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:47,952 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:48,493 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:48,521 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,004 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,020 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,418 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,664 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,926 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:49,957 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:50,438 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:50,515 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:50,951 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:51,460 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:51,665 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:51,924 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:51,971 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:52,435 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:52,939 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:52,961 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:53,430 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:53,534 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:54,434 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:54,533 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:54,944 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:54,958 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:55,457 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:55,952 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:55,971 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:56,420 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:56,514 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:56,933 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:56,954 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:57,443 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:57,523 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:57,934 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:57,966 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:58,529 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:58,556 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:58,945 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:58,963 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:59,431 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:59,542 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:39:59,655 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:27,933 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:27,961 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:28,437 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:28,530 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:28,955 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:29,438 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:29,514 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:29,972 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:30,015 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:30,462 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:30,540 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:30,935 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:30,967 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:31,436 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:31,531 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:31,934 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:31,967 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:32,433 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:32,511 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:32,926 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:32,964 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:33,412 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:33,514 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:33,919 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:33,960 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:34,422 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:34,935 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:34,978 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:35,427 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:35,937 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:36,437 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:37,973 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:37,988 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:38,485 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:38,586 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:38,996 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:39,011 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:39,421 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:39,926 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:39,963 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:40,421 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:40,515 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:40,932 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:41,935 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:41,956 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:42,454 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:42,557 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:42,991 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:43,046 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:43,508 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:43,565 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:43,920 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:43,964 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:44,439 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:44,529 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:44:44,923 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:07,438 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:07,642 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:07,925 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:08,175 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:08,421 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:08,757 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:08,940 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:09,252 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:09,439 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:09,726 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:09,938 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:10,143 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:10,443 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:10,664 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:10,936 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:10,988 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:11,419 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:11,622 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:11,919 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:12,001 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:12,486 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:12,934 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:13,005 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:13,510 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:13,633 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:13,935 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:14,021 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:14,533 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:14,635 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:14,944 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:14,980 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:15,455 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:15,553 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:15,944 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:15,989 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:16,411 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:16,549 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:16,914 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:16,975 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:17,423 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:17,543 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:17,916 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:17,985 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:18,408 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:18,571 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:18,913 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:19,409 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:19,536 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:19,920 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:20,519 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:20,554 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:20,911 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:20,981 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:21,420 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:21,917 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:21,964 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:22,442 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:22,552 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:22,923 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:22,982 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:23,415 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:23,544 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:23,912 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:24,053 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:24,409 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:24,800 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:24,910 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:25,415 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:25,725 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:25,929 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,034 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,132 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,429 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,540 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,925 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:26,952 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:27,432 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:27,523 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:27,917 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:46:27,930 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:33,924 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:35,930 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:35,964 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:37,423 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:37,516 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:38,416 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:38,502 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:38,916 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:38,959 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:39,415 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:39,518 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:39,920 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:39,944 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:40,414 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:41,418 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:41,651 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:41,911 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:41,957 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:47:42,417 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:50,479 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:50,525 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:50,915 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:51,015 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:51,425 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:51,538 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:51,920 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:52,422 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:52,538 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:52,918 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:52,947 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:53,435 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:51:53,544 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:05,947 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:05,980 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:06,433 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:06,563 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:06,924 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:06,990 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:07,425 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:07,537 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:07,936 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:07,958 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:08,417 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:08,543 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:08,959 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:08,972 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:09,472 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:09,576 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:09,929 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:09,961 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:10,498 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:10,524 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:11,519 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:11,532 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:11,911 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:12,440 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:12,512 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:12,915 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:12,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:13,406 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:13,510 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:13,910 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:13,939 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:14,409 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:14,513 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:14,908 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:14,958 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:15,412 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:15,908 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:16,010 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:16,434 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:16,541 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:16,947 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:16,961 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:17,407 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:17,566 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:17,971 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:18,414 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:18,909 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:19,408 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:19,650 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:19,902 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:20,402 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:20,518 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:20,910 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:20,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:21,460 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:21,909 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:21,938 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:22,412 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:22,521 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:22,913 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:22,945 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:23,409 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:23,910 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:23,957 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:24,408 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:24,526 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:24,912 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:25,451 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:25,649 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:25,931 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 09:57:25,958 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:39,513 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:39,615 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:39,992 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:40,004 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:40,441 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:40,546 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:40,948 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:40,961 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:41,458 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:41,560 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:41,971 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:41,983 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:42,483 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:42,585 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:42,996 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:43,105 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:43,438 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:43,813 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:43,931 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:44,122 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:44,433 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:44,634 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:44,928 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:45,010 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:45,447 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:45,554 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:45,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:45,962 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:46,459 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:46,578 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:46,989 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:47,002 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:47,446 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:04:47,604 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:44,447 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:44,547 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:44,928 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:45,059 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:45,468 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:45,507 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:45,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:45,956 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:46,452 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:07:46,800 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:14,966 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:15,267 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:15,470 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:15,939 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:16,356 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:16,466 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:17,008 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:17,215 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:17,427 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:17,929 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:17,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:18,076 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:18,441 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:18,941 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:19,024 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:08:19,425 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:06,916 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:07,423 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:07,504 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:07,962 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:07,985 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:08,421 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:08,926 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:09,416 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:09,497 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:09,929 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:09,942 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:10,422 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:10,509 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:10,924 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:11,488 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:11,513 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:11,943 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:11,989 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:12,481 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:12,535 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:12,948 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:12,977 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:13,948 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:13,962 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:14,423 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:14,558 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:14,971 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:14,985 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:16,420 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:16,448 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:17,019 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:17,328 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:17,429 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:17,942 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:18,127 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:18,453 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:18,965 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:18,994 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:19,476 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:19,490 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:19,783 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:19,950 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:20,091 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:20,500 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:20,661 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:21,012 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:21,028 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:21,502 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:21,642 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:21,932 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:22,035 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:22,412 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:22,558 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:22,913 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:22,976 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:23,470 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:23,572 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:23,983 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:24,413 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:24,589 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:24,917 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:24,973 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:25,918 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:26,577 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:27,921 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:27,983 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:28,413 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:28,544 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:28,906 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:28,970 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:29,920 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:30,022 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:30,432 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:30,557 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:30,923 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:31,050 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:31,419 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:31,928 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:32,072 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:32,482 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:32,535 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:32,952 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:10:33,095 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:26,410 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:26,470 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:26,906 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:26,927 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:27,412 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:27,491 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:27,914 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:27,936 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:28,402 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:28,496 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:29,421 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:29,506 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:29,919 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:29,985 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:30,414 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:30,517 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:30,914 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:31,909 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:31,925 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:32,416 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:32,496 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:32,909 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:34,444 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:34,545 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:34,956 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:35,263 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:35,467 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:35,885 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:35,915 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:36,491 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,003 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,016 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,419 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,513 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,933 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:37,949 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:13:38,436 [futures_trader.main] ERROR: 执行器异常: name 'MIN_PROFIT_TICKS' is not defined
+2026-05-21 10:19:54,151 [futures_trader.main] INFO: 收到退出信号
+2026-05-21 10:19:54,152 [futures_trader.main] INFO: 执行收盘清理...
+2026-05-21 10:19:54,153 [futures_trader.executor] INFO: TargetPosTask 实例已创建 (ACTIVE)
+2026-05-21 10:19:54,154 [futures_trader.executor] INFO: 强制平仓指令已发出
+2026-05-21 10:19:54,171 [futures_trader.main] INFO: 收盘自检 | 交易=0次 | 胜率=0.0% | 净盈亏=0.00元 | 日波动=43 ticks | ATR=0.57 | 近期胜率(20笔)=N/A
+2026-05-21 10:19:54,224 [futures_trader.main] INFO: 系统已安全退出
+2026-05-21 10:19:56,075 [futures_trader.prediction] INFO: Numba JIT 加速已启用
+2026-05-21 10:19:56,091 [futures_trader.main] INFO: ============================================================
+2026-05-21 10:19:56,092 [futures_trader.main] INFO: 全自动期货短线交易工具 v5 启动
+2026-05-21 10:19:56,092 [futures_trader.main] INFO: 交易品种: DCE.eb2607
+2026-05-21 10:19:56,092 [futures_trader.main] INFO: 核心改进: Tick归一化ATR + BB挤压突破 + VWAP回归 + 卡尔曼滤波
+2026-05-21 10:19:56,092 [futures_trader.main] INFO: ============================================================
+2026-05-21 10:19:56,093 [futures_trader.database] INFO: 数据库初始化完成
+2026-05-21 10:19:56,095 [futures_trader.config] INFO: 加载持久化状态: 累计交易=0, 累计盈亏=0.00
+2026-05-21 10:19:56,601 [futures_trader.dashboard] INFO: 仪表盘已启动: http://127.0.0.1:8051
+2026-05-21 10:19:56,601 [dash.dash] INFO: Dash is running on http://127.0.0.1:8051/
+
+2026-05-21 10:19:58,506 [futures_trader.main] INFO: 正在连接快期模拟 - 账号: '19224304249'
+2026-05-21 10:19:59,775 [futures_trader.main] INFO: 天勤 API (快期模拟) 连接成功
+2026-05-21 10:29:59,514 [futures_trader.main] INFO: 初始权益: 20000.00
+2026-05-21 10:29:59,521 [futures_trader.main] INFO: 前日 VA: [9262.00, 9333.34], H/L/C: 9385.00/9262.00/9341.00
+2026-05-21 10:29:59,521 [futures_trader.executor] INFO: 最小变动价位: 1.0
+2026-05-21 10:29:59,521 [futures_trader.main] INFO: 进入主循环
+2026-05-21 10:29:59,521 [futures_trader.main] INFO: ------------------------------------------------------------
+2026-05-21 10:30:59,421 [futures_trader.prediction] INFO: BB 挤压检测: 波动率收缩, 准备突破
+2026-05-21 13:29:59,339 [futures_trader.data_collector] WARNING: 警报: 行情中断, 延迟=7199818ms, 进入盲飞模式
+2026-05-21 13:29:59,519 [futures_trader.data_collector] INFO: 行情恢复, 延迟=131ms
+2026-05-21 14:41:36,771 [futures_trader.data_collector] WARNING: 警报: 行情中断, 延迟=2491ms, 进入盲飞模式
+2026-05-21 14:41:38,779 [futures_trader.data_collector] INFO: 行情恢复, 延迟=0ms
+2026-05-21 14:44:00,374 [futures_trader.data_collector] WARNING: 警报: 行情中断, 延迟=2085ms, 进入盲飞模式
+2026-05-21 14:44:01,796 [futures_trader.data_collector] INFO: 行情恢复, 延迟=0ms
+2026-05-21 14:54:35,817 [futures_trader.main] INFO: 收到退出信号
+2026-05-21 14:54:35,817 [futures_trader.main] INFO: 执行收盘清理...
+2026-05-21 14:54:35,817 [futures_trader.executor] INFO: TargetPosTask 实例已创建 (ACTIVE)
+2026-05-21 14:54:35,818 [futures_trader.executor] INFO: 强制平仓指令已发出
+2026-05-21 14:54:35,833 [futures_trader.main] INFO: 收盘自检 | 交易=0次 | 胜率=0.0% | 净盈亏=0.00元 | 日波动=141 ticks | ATR=0.62 | 近期胜率(20笔)=N/A
+2026-05-21 14:54:35,880 [futures_trader.main] INFO: 系统已安全退出
