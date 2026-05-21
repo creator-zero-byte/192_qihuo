@@ -10,6 +10,7 @@
 
 import time
 import logging
+import config
 from config import (
     SYMBOL,
     CONFIDENCE_THRESHOLD,
