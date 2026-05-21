@@ -65,12 +65,15 @@ RSI_OVERBOUGHT = 70
 # v5: Z-score
 ZSCORE_ENTRY = 1.8  # 回测最优
 
-# v5: 止盈止损 (回测最优)
-STOP_LOSS_TICKS = 10
-TRAILING_STOP_TICKS = 5
-TAKE_PROFIT_ATR_MULT = 1.5  # ~15 ticks
-MIN_HOLD_SECONDS = 10
-MAX_HOLD_SECONDS = 240
+# v5: 止盈止损 (回测最优) - v6 优化：降低门槛提高交易频率
+STOP_LOSS_TICKS = 8       # v6: 从 10 降至 8，减少被扫损概率
+TRAILING_STOP_TICKS = 4   # v6: 从 5 降至 4，更灵敏锁定利润
+TAKE_PROFIT_ATR_MULT = 1.2  # v6: 从 1.5 降至 1.2，更快止盈
+MIN_HOLD_SECONDS = 5      # v6: 从 10 降至 5，减少持仓时间风险
+MAX_HOLD_SECONDS = 180    # v6: 从 240 降至 180
+
+# v6 新增：动态位移系数
+DISPLACEMENT_SCALE_FACTOR = 0.6  # v6: 降低位移要求到原来的 60%
 
 # v5: 置信度
 CONFIDENCE_THRESHOLD = 0.50
